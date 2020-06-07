@@ -47,7 +47,6 @@ def getvalue():
         )
 
         mycursor = mydb.cursor()
-        mycursor
         sql = "insert into flights values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);"
         val = ("'" + airname + "'", "'" + arrdate + "'","'" + arrterm+ "'", "'" + arrtime + "'", "'" + depterm + "'",
                "'" + deptime + "'", "'" + dur + "'", "'" + tbf + "'", "'" + fc + "'", "'" + fn + "'","'" + sa+ "'",
