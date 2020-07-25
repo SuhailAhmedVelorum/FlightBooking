@@ -42,7 +42,7 @@ def getvalue():
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            passwd="NoPe",
+            passwd="*******************",
             database='dp'
         )
 
